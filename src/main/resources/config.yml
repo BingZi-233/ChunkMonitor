@@ -1,0 +1,24 @@
+# ChunkMonitor 配置文件
+# 插件版本: ${plugin.version}
+
+main:
+  # 是否启用调试模式
+  debug: false
+  
+  # 监控间隔(秒)
+  interval: 30
+  
+  # 监控的世界列表
+  worlds:
+    - world
+  
+  # 监控设置
+  settings:
+    # 最大实体数量警告阈值
+    maxEntityWarning: 50
+    
+    # 最大方块更新警告阈值
+    maxBlockUpdateWarning: 100
+    
+    # 红石更新警告阈值
+    maxRedstoneUpdateWarning: 20 

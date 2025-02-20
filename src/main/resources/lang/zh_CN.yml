@@ -1,0 +1,15 @@
+# 命令相关消息
+commandHelpHeader: "&7========= &6ChunkMonitor &7========="
+commandHelpReload: "&6/cm reload &7- 重载配置文件"
+commandHelpFooter: "&7=============================="
+commandReloadSuccess: "&a配置重载完成!"
+
+# 插件相关消息
+pluginEnable: "ChunkMonitor 正在启动..."
+pluginDisable: "ChunkMonitor 正在关闭..."
+pluginLoaded: "ChunkMonitor 启动完成!"
+
+# 配置相关消息
+configLoaded: "配置加载完成!"
+configDebugEnabled: "调试模式已启用"
+configCorrupted: "配置文件损坏，使用默认配置" 
