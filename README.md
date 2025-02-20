@@ -67,17 +67,3 @@ settings:
 ## 许可证
 
 本项目采用 [CC0-1.0 License](https://creativecommons.org/publicdomain/zero/1.0/) - 详见 [LICENSE](LICENSE) 文件。
-
-```
-./gradlew build
-```
-
-## 构建开发版本
-
-开发版本包含 TabooLib 本体, 用于开发者使用, 但不可运行。
-
-```
-./gradlew taboolibBuildApi -PDeleteCode
-```
-
-> 参数 -PDeleteCode 表示移除所有逻辑代码以减少体积。
